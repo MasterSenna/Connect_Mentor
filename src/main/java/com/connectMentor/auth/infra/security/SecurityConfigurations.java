@@ -31,7 +31,7 @@ public class SecurityConfigurations {
                         .requestMatchers(new AntPathRequestMatcher("/login", HttpMethod.POST.name())).permitAll()
                         .requestMatchers(new AntPathRequestMatcher("/register", HttpMethod.POST.name())).permitAll()
                         .requestMatchers(new AntPathRequestMatcher("/index", HttpMethod.GET.name())).permitAll()
-                        .requestMatchers(new AntPathRequestMatcher("/mentorado/PerfilMentorado", HttpMethod.GET.name())).authenticated()
+                        .requestMatchers(new AntPathRequestMatcher("/mentorado/perfilMentorado", HttpMethod.GET.name())).authenticated()
                         .requestMatchers(new AntPathRequestMatcher("/mentor/perfilMentor", HttpMethod.GET.name())).authenticated()
                         .requestMatchers(new AntPathRequestMatcher("/", HttpMethod.GET.name())).permitAll()
                         .requestMatchers(new AntPathRequestMatcher("/againLogin", HttpMethod.GET.name())).permitAll()
