@@ -67,7 +67,7 @@ public class MentoradoController {
 	}
 
 	// Setando view no endpoint perfil mentorado;
-	@GetMapping("perfilMentorado")
+	@GetMapping("/perfilMentorado")
 	public ModelAndView perfilMentorado() {
 
 		ModelAndView mv = new ModelAndView();
